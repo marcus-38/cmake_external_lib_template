@@ -1,6 +1,4 @@
 cmake-build-debug/
-extern/
-.idea/
 
 # Created by https://gitignore.org
 # CMake.gitignore
