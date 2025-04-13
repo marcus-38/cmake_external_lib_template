@@ -1,6 +1,14 @@
 #include <iostream>
+#include <string>
+#include "yaml-cpp/yaml.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::string name = "Guest";
+
+    YAML::Node config = YAML::LoadFile("config.yaml");
+    if (config["name"].IsDefined()) {
+        name = config["name"].as<std::string>();
+    }
+    std::cout << "Welcome " << name << std::endl;
     return 0;
 }
