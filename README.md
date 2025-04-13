@@ -6,3 +6,4 @@ My personal CMake template for using external libraries that are hosted on githu
    - [x] download external lib
    - [x] copy local yaml file
 
+External libraries should have their own CMakeLists.txt...
