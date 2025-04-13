@@ -13,7 +13,6 @@ if (NOT yaml-cpp_FOUND)
     if (NOT Git_FOUND)
         message(FATAL_ERROR "Git not found, can't initialize!")
     endif()
-    message("Current source dir: ${CMAKE_CURRENT_SOURCE_DIR}")
     execute_process(
             COMMAND ${GIT_EXECUTABLE} clone
             https://github.com/jbeder/yaml-cpp.git
