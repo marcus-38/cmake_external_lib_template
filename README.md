@@ -2,7 +2,7 @@
 My personal CMake template for using external libraries that are hosted on github.com.
 
 - CMakeLists.txt
-   - [ ] check if git command exists
-   - [ ] download external lib
-   - [ ] copy local yaml file
+   - [x] check if git command exists
+   - [x] download external lib
+   - [x] copy local yaml file
 
